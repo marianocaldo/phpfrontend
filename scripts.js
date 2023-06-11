@@ -101,10 +101,10 @@ function resetValues() {
     document.getElementById("errorEmail").innerHTML = "";
     document.getElementById("errorNombre").innerHTML = "";
     document.getElementById("errorApellido").innerHTML = "";
-    document.getElementById("cantGeneral").value = "1";
-    document.getElementById("cantEstudiante").value = "1";
-    document.getElementById("cantTrainee").value = "1";
-    document.getElementById("cantJunior").value = "1";
+    document.getElementById("cantGeneral").value = "0";
+    document.getElementById("cantEstudiante").value = "0";
+    document.getElementById("cantTrainee").value = "0";
+    document.getElementById("cantJunior").value = "0";
   }
 
 
