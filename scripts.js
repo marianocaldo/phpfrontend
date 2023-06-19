@@ -47,7 +47,7 @@ function validarEmail() {
 
 function completarGeneral() {
     totGeneral = (optGeneral.value * 200);
-    document.getElementById("subtotGeneral").innerHTML = "$" + totGeneral; 
+    document.getElementById("subtotGeneral").innerHTML = totGeneral; 
     
 }
 
@@ -55,7 +55,7 @@ function completarGeneral() {
 
 function completarEstudiante() {
     totEstudiante = optEstudiante.value * 40;
-    document.getElementById("subtotEstudiante").innerHTML = "$" + totEstudiante; 
+    document.getElementById("subtotEstudiante").innerHTML = totEstudiante; 
     console.log(optEstudiante);
 
 }
@@ -63,7 +63,7 @@ function completarEstudiante() {
 
 function completarTrainee() {
     totTrainee = optTrainee.value * 100;
-    document.getElementById("subtotTrainee").innerHTML = "$" + totTrainee; 
+    document.getElementById("subtotTrainee").innerHTML = totTrainee; 
     console.log(optTrainee);
 
 }
@@ -72,7 +72,7 @@ function completarTrainee() {
 
 function completarJunior() {
     totJunior = optJunior.value * 170;
-    document.getElementById("subtotJunior").innerHTML = "$ " + totJunior;
+    document.getElementById("subtotJunior").innerHTML = totJunior;
     
     console.log(optJunior);
 
@@ -82,14 +82,14 @@ function completarJunior() {
 function completarTotal() {
     totaltotal= totGeneral + totEstudiante + totJunior + totTrainee;
     
-    document.getElementById("TOTAL").innerHTML = "$ " + totaltotal; 
+    document.getElementById("TOTAL").innerHTML = "Total al pagar: $" + totaltotal; 
      
 
 }
 
 function resetValues() {
     
-    document.getElementById("TOTAL").innerHTML = "$ 0";
+    document.getElementById("TOTAL").innerHTML = "Total al pagar: $ 0.--";
     document.getElementById("nombre").innerHTML = " ";
     apellido.value = "";
     nombre.value = "";
